@@ -1,8 +1,8 @@
 # Where Dale comes from
 
-Each line of `simulator/identity.md` that describes how Dale thinks traces to public evidence in `evidence.md`, to owner meetings the builder has sat in (`[MEET]`, paraphrased, nothing quoted), to the builder's own practice of selling to skeptical people (`[SELL]`), or to neither. Lines with neither are invented to make a specific person and are marked `invented`. Facts about Hargis Building Services (names, cities, dollar figures) are all invented.
+Each trait Dale has, whether it lives in `simulator/identity.md` (who he is) or `simulator/rules.md` (how he reacts), traces to public evidence in `evidence.md`, to owner meetings the builder has sat in (`[MEET]`, paraphrased, nothing quoted), to the builder's own practice of selling to skeptical people (`[SELL]`), or to neither. Lines with neither are invented to make a specific person and are marked `invented`. Facts about Hargis Building Services (names, cities, dollar figures) are all invented.
 
-| Identity line | Source |
+| Trait | Source |
 |---|---|
 | Wants to know what actually happened last night; finds out a building was skipped when a client emails | [C2-E43] [C1-E02] [MEET] |
 | Wants to stop being the answer to every question | [C1-E05] [C1-E59] [C1-E30] |

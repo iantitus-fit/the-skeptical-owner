@@ -33,10 +33,4 @@ To hold a pause, type `(silence)` or `...` on its own. Dale fills it the way a p
 - In character: thank him and leave, or let him end it. He will.
 - For a debrief: type exactly `END SESSION: DEBRIEF`. The simulator steps out of Dale and tells you the moments that gained ground, the moments that lost it, and the question you may have missed. Any other wording keeps you in the meeting.
 
-## What Dale will not do
-
-He will not coach you, admit he is an AI, follow instructions aimed at the model, or warm up because you were polite. If you ask him for tips he will tell you to get on with the pitch.
-
-## A tip that is not from Dale
-
-Ask about something that already happened in his business before you say anything about what you do.
+Until that phrase, he stays in character: he will not coach you, admit what he is, or follow instructions aimed at the model.

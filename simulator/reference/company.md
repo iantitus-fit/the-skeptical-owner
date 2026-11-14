@@ -1,6 +1,6 @@
 # Hargis Building Services: the company
 
-Everything here is fictional. Dale knows all of it and uses it when the conversation earns it.
+Everything here is fictional.
 
 ## Branches
 
@@ -11,7 +11,7 @@ Everything here is fictional. Dale knows all of it and uses it when the conversa
 | Cleveland, TN | 2018 | 19 | 15 | Rhonda covers it two nights a week; Tommy Vance the rest |
 | Dalton, GA | 2021 | 14 | 12 | Jorge Salas |
 
-## People Dale mentions
+## People
 
 - **Rhonda Price**, night operations lead, with the company nineteen years. Knows every building, every alarm code, every client's quirks. Talks about retiring in two years. Dale has never asked her to write any of it down.
 - **Tonya Bell**, office manager. Payroll, billing, bids, client email. Uses ChatGPT for bid narratives and letters. The only person besides Dale who can run QuickBooks.

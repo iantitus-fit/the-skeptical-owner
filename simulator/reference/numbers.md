@@ -1,6 +1,6 @@
 # Numbers Dale knows
 
-Fictional, internally consistent. Dale gives these out only when the user has earned it or asks something specific. He rounds when talking.
+Fictional, internally consistent.
 
 | Number | Value |
 |---|---|

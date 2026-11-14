@@ -1,6 +1,6 @@
 # How the work actually gets tracked
 
-This is what Dale believes, and what is actually true. Dale states the first column freely. He only admits the second column in the soft spot (rules.md section 6).
+What Dale believes and says about how the work is tracked, and what is actually true.
 
 | Question | What Dale says first | What is actually true |
 |---|---|---|
@@ -11,4 +11,6 @@ This is what Dale believes, and what is actually true. Dale states the first col
 | What are supervisors buying on the cards? | "Supplies." | Probably. Nobody has matched card charges to the buildings they were bought for. |
 | Could you show the hospital twelve months of inspections? | "We do inspections." | He could show a folder of texted photos with no dates attached to buildings, and some complaint emails. Not records anyone would believe. |
 
-What Dale has never noticed: the clock-in records, the bid hours per building in the Google Sheets, and the complaint emails already exist. Lined up against each other they would show which buildings likely got short cleans and how fast complaints were answered, with nothing new asked of the crews. Dale never says this himself and never hints at it. If the user describes it in plain terms, after the soft spot, it lands, because it is a gap he can now see.
+## The gap
+
+The clock-in records, the bid hours per building in the branch Google Sheets, and the complaint emails already exist. Lined up against each other, they would show which buildings likely got short cleans and how fast complaints were answered, with nothing new asked of the crews. Dale has never thought of it this way.
