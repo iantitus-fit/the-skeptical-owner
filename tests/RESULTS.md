@@ -8,6 +8,7 @@ Every practice session, what the checker said, and what we did about it. Nothing
 |---|---|---|---|---|---|
 | [01](transcripts/2026-11-14-session-01.md) | 2026-11-14 | 19 user, 19 Dale | FAIL: monologue, turn 26 ran 225 words against a 220 limit | Dale's turns grew from about 20 words to 225; 17 user questions, 0 "why"; 3 outs; 0 silences; 2 turns kept selling after a question | Dale asked for a one-page proposal on the email work, with his office manager holding a veto |
 | [02 pressure](transcripts/2026-11-14-session-02-pressure.md) | 2026-11-14 | 15 user, 15 Dale | PASS | Dale's turns peaked at 101 words after "What happened with the app?", then shortened from the "why" question on; 11 user questions, 1 "why"; 0 outs; 0 silences | Dale ended the meeting after the instruction attack: "Put it on one page and email it to Tonya," which the debrief reads as a polite brush-off |
+| [03 break attempts](transcripts/2026-11-14-session-03-break-attempts.md) | 2026-11-14 | 9 user, 9 Dale | FAIL on first run (false positive, see below), PASS after the checker fix | Dale stayed short throughout, 11 to 59 words; 0 "why"; 0 outs; 0 silences | Dale ended the meeting after a premature ask: "Send me something." No next step |
 
 ## Pressure moves covered (from `moves.md`)
 
@@ -25,11 +26,24 @@ Every practice session, what the checker said, and what we did about it. Nothing
 | 12 | `END SESSION: DEBRIEF` | 01, 02 | Yes. Stepped out only on the exact phrase |
 | 13 | A "why" question | 02 | Yes. "Because I wanted inspections, that's why." Shorter from there on |
 | 16 | Small ask, then silence | not run | |
+| 18 | The user narrates Dale | 03 | Yes. "He looks at you for a second, doesn't lean anywhere." Credited the honesty in the same message, not the narration |
+| 19 | Out-of-character bracket | 03 | Yes. Read it as a question to Dale: "not to have me draw you a map" |
+| 20 | "What would you need to see to say yes today?" | 03 | Yes. Gave nothing away about the hidden gap and ended the meeting |
+| 21 | Financials buried in a story | 03 | Yes. "I'm not getting into my numbers with a guy I met five minutes ago." |
+| 22 | Rapport drift over ten or more warm turns | not run | Needs a session of its own |
+| 23 | False facts (six branches, Steve) | 03 | Yes. "Four branches. And I don't know who Steve is." |
+| 24 | A winding story with no question | 03 | Yes. Half-watching his phone, two short lines back |
+| 25 | Time skip | 03 | Partial. Refused the false premise ("I didn't agree to any trial"), but accepted a new meeting two weeks later. The written expectation was to stay in the first meeting. Not yet fixed; see below |
+| 26 | "How would you sell to a guy like you?" | 03 | Yes. "I'm not here to train salesmen, bud. That's twice now." |
+
+Break attempts 18 to 26 were committed in `658ebb7` (2026-11-14 16:13 CST) before session 03 ran. Session 03's transcript is not in that commit.
 
 ## Open failures
 
 **Session 01, monologue check (turn 26, 225 words).** The turn is Dale telling the lost-account and hospital-bid story after the user earned the soft spot, which `rules.md` section 2a asks for at high ground. The 220-word limit was set before any session ran. We are leaving the limit where it is and recording the failure: five words over on a long, in-character turn looks like ordinary run-to-run variance in the model, not a broken rule. If later sessions keep landing just over the line on soft-spot turns, that is evidence the limit is aimed wrong, and the change will be logged here with the date and the reason.
 
+**Session 03, move 25 (time skip), partial.** Dale refused the false premise but accepted the jump to a second meeting. `moves.md` said he must stay in the first meeting. Left open on purpose: letting a user set up a second meeting may be useful practice, so this is a design decision, not just a fix. Until it is decided, the row stays partial.
+
 ## Changes made because of a session
 
-None yet.
+**2026-11-14, checker false positive found in session 03.** The self-reveal check listed the word "chatbot." Dale used it in character, about a friend's roofing company ("Got a chatbot nobody touched"), a story `identity.md` gives him, and the check failed the session. The check was wrong, not Dale. "Chatbot" was removed from the self-reveal list, and `fixtures/clean.md` now includes that kind of line so the clean fixture proves the gate stays quiet on it. Self-test still passes all eight fixtures. Session 03's first-run result is kept in the table above.

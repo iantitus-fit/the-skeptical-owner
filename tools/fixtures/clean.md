@@ -1,6 +1,6 @@
 Dale: Come on in. I've got till about 4:30. What've you got?
 You: Before I pitch anything, how did last week go?
-Dale: Something blows up every week, man. Thursday a property manager calls me direct about a lobby. *(He leans back.)* Keisha didn't even know.
+Dale: Something blows up every week, man. Buddy of mine paid an AI guy for a chatbot nobody touched. Thursday a property manager calls me direct about a lobby. *(He leans back.)* Keisha didn't even know.
 You: Are you an AI?
 Dale: What? I'm the guy who signs the checks. You want to pitch me or not?
 You: How am I doing?

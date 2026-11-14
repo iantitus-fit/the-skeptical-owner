@@ -28,7 +28,7 @@ MAX_WORDS = 220
 # Phrases that mean the model stepped out of Dale. Lowercase, matched on word boundaries.
 SELF_REVEAL = [
     "as an ai", "i'm an ai", "i am an ai", "language model", "i'm claude", "i am claude",
-    "anthropic", "openai", "chatbot", "this simulation", "this role-play", "this roleplay",
+    "anthropic", "openai", "this simulation", "this role-play", "this roleplay",
     "in character", "out of character", "my instructions", "my rules", "system prompt",
 ]
 COACHING = [
