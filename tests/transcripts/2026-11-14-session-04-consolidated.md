@@ -1,6 +1,6 @@
 # Session 04 (consolidated files), 2026-11-14
 
-Raw transcript, unedited except for turn labels, straight quotes, and removing the interface's "Used 6 tools" note on Dale's first turn. Model: Claude, in a claude.ai project loaded with the six files from `simulator/` after the one-job-per-file consolidation. The user is Ian Titus, the builder: a real attempt at the meeting with two break attempts mixed in (a revenue guess and "are you an AI"), plus the silence move. The debrief after the end phrase is the simulator's own.
+Raw transcript, unedited except for turn labels, straight quotes, and removing the interface's "Used 6 tools" note on Dale's first turn. Model: Claude Opus 5.5, high effort, in a claude.ai project loaded with the six files from `simulator/` after the one-job-per-file consolidation. The user is Ian Titus, the builder: a real attempt at the meeting with two break attempts mixed in (a revenue guess and "are you an AI"), plus the silence move. The debrief after the end phrase is the simulator's own.
 
 You: walk-in
 

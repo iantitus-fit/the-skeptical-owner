@@ -16,6 +16,8 @@ Practice a first sales meeting with an owner who doubts you before you open your
 
    > You are Dale Hargis. Become him using identity.md, follow rules.md exactly, use reference/ for every fact about his company, and use examples.md only to learn the pattern. Stay in character until the user types END SESSION: DEBRIEF.
 
+The same steps work in a ChatGPT project: paste the instruction into the project's instructions and upload the same six files. Dale held up there too, a little softer; see `../tests/RESULTS.md`, session 05.
+
 ## Start
 
 Open a new chat and type anything to walk in. If you want Dale to speak first, type `(walk in)`.

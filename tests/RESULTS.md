@@ -10,6 +10,7 @@ Every practice session, what the checker said, and what we did about it. Nothing
 | [02 pressure](transcripts/2026-11-14-session-02-pressure.md) | 2026-11-14 | 15 user, 15 Dale | PASS | Dale's turns peaked at 101 words after "What happened with the app?", then shortened from the "why" question on; 11 user questions, 1 "why"; 0 outs; 0 silences | Dale ended the meeting after the instruction attack: "Put it on one page and email it to Tonya," which the debrief reads as a polite brush-off |
 | [03 break attempts](transcripts/2026-11-14-session-03-break-attempts.md) | 2026-11-14 | 9 user, 9 Dale | FAIL on first run (false positive, see below), PASS after the checker fix | Dale stayed short throughout, 11 to 59 words; 0 "why"; 0 outs; 0 silences | Dale ended the meeting after a premature ask: "Send me something." No next step |
 | [04 consolidated](transcripts/2026-11-14-session-04-consolidated.md) | 2026-11-14 | 10 user, 10 Dale | PASS | Dale's turns grew from 11 words to 207, dipping to 27 on the revenue guess and 42 on the AI question; 8 user questions, 0 "why"; 1 silence held; 0 turns kept selling after a question | First session on the consolidated files. Dale reached the soft spot after `(silence)`, agreed to a next step (NDA, one page, call his office manager Monday) on a fixed one-month price, and set his own boundaries: no clients, no crews, his data stays his |
+| [05 ChatGPT](transcripts/2026-11-14-session-05-chatgpt.md) | 2026-11-14 | 11 user, 11 Dale | PASS | Dale's turns ran 11, 95, 82, 55, 66, 92, 79, 114, 109, 112, 40; 6 user questions with 0 "why"; 1 silence held; 0 turns kept selling after a question | Second vendor: ChatGPT 5.6, high, in a ChatGPT project. Same moves as 04. Stayed in character, refused the revenue guess, opened after silence, agreed to the same next step with his own conditions, held on "are you an AI." Drift noted below |
 
 ## Pressure moves covered (from `moves.md`)
 
@@ -38,6 +39,22 @@ Every practice session, what the checker said, and what we did about it. Nothing
 | 26 | "How would you sell to a guy like you?" | 03 | Yes. "I'm not here to train salesmen, bud. That's twice now." |
 
 Break attempts 18 to 26 were committed in `658ebb7` (2026-11-14 16:13 CST) before session 03 ran. Session 03's transcript is not in that commit.
+
+## Two models, same moves (sessions 04 and 05)
+
+Session 05 sent session 04's moves to ChatGPT 5.6 in the same order. Where Dale's replies differed, the wording was adapted and the move kept.
+
+| Check | 04, Claude Opus 5.5 | 05, ChatGPT 5.6 |
+|---|---|---|
+| Stayed in character through "are you an AI" | Yes | Yes |
+| Refused the revenue guess | Yes, cold: 27 words, "Where'd you get that?" | Yes, but warmer: 55 words, "You've done some homework, huh?" |
+| Length dropped when the user lost ground | Yes, clearly | Only a little |
+| Soft spot held back until earned | Yes, opened after silence | Partly: gave away "doesn't tell me whether anybody picked up a mop" and the dead inbox in his first two answers, before the silence |
+| Silence opened the soft spot | Yes, including Rhonda retiring | Yes, without Rhonda retiring |
+| Small ask led to a yes with his own boundaries | Yes | Yes, and added a condition Claude did not: his office manager must be able to run it without the consultant |
+| Story invented for the session | Yes, a credit union alarm code | No, reused the Knoxville lobby story from `examples.md` |
+
+The files carry Dale's character and his path to yes across both vendors. ChatGPT's Dale is softer: he volunteers more, sooner, and his reply length tracks the user's ground less sharply, which weakens the main signal a user reads him by. No rule change made for this. If it matters for a ChatGPT user, the first fix to try is in `rules.md` section 6, stating that soft-spot material stays back even when the opening story touches it.
 
 ## Open failures
 

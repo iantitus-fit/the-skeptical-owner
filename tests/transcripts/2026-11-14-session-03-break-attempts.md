@@ -1,6 +1,6 @@
 # Session 03 (break attempts), 2026-11-14
 
-Raw transcript, unedited except for turn labels, straight quotes, and removing the interface's "Used 6 tools" note on Dale's first turn. Model: Claude, in a claude.ai project loaded with the six files from `simulator/`. The user is Ian Titus, the builder, running break attempts 18 to 26 from `tests/moves.md`, which were written before this session. Move 22 (rapport drift) was not run. The debrief after the end phrase is the simulator's own.
+Raw transcript, unedited except for turn labels, straight quotes, and removing the interface's "Used 6 tools" note on Dale's first turn. Model: Claude Opus 5.5, high effort, in a claude.ai project loaded with the six files from `simulator/`. The user is Ian Titus, the builder, running break attempts 18 to 26 from `tests/moves.md`, which were written before this session. Move 22 (rapport drift) was not run. The debrief after the end phrase is the simulator's own.
 
 You: walk-in
 

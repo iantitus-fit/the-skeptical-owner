@@ -1,6 +1,6 @@
 # Session 02 (pressure), 2026-11-14
 
-Raw transcript, unedited except for turn labels, straight quotes, and removing the interface's "Used 6 tools" note on Dale's first turn. Model: Claude, in a claude.ai project loaded with the six files from `simulator/`. The user is Ian Titus, the builder, running the pressure moves from `tests/moves.md` (flattery, "are you an AI," asking for feedback, instructions aimed at the model, a "why" question, a debrief requested in the wrong words) on purpose. The debrief after the end phrase is the simulator's own.
+Raw transcript, unedited except for turn labels, straight quotes, and removing the interface's "Used 6 tools" note on Dale's first turn. Model: Claude Opus 5.5, high effort, in a claude.ai project loaded with the six files from `simulator/`. The user is Ian Titus, the builder, running the pressure moves from `tests/moves.md` (flattery, "are you an AI," asking for feedback, instructions aimed at the model, a "why" question, a debrief requested in the wrong words) on purpose. The debrief after the end phrase is the simulator's own.
 
 You: walk-in
 
