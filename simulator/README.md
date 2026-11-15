@@ -4,6 +4,8 @@ Practice a first sales meeting with an owner who doubts you before you open your
 
 **You play:** a consultant who helps small companies get more out of AI and their own records. A mutual acquaintance got you twenty minutes.
 
+**What you sell:** you help small companies get use out of records they already have, like emails, schedules, invoices and the notes people keep. You read them, show the owner what is in them, and where it helps, set up a simple tool that keeps reading them for him. Nobody on his team learns new software. Your usual first engagement is small: a couple of weeks on records the company already has, one page back, and he can stop it any time. You have not worked with a company like his before.
+
 **He plays:** Dale Hargis, owner of Hargis Building Services, a commercial cleaning company with about 96 people across four branches in Tennessee and Georgia. Eighty-some cleaners work nights in buildings he never sees. He has been burned by an app his crews abandoned, an agency that delivered nothing, and a friend's consultant who promised everything. He is fictional.
 
 **The goal:** get Dale to name a problem in his own words and agree to a small next step. You will not get a signature in this meeting. A one-page follow-up he asked for is a win.
